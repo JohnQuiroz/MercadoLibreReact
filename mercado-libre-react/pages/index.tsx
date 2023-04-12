@@ -1,8 +1,14 @@
 import { Layout } from '@/layouts/Layout'
+import Head from 'next/head';
 
 const IndexPage = () => {
   return (
-    <Layout />
+    <>
+      <Head>
+        <title>Mercado Libre</title>
+      </Head>
+      <Layout />
+    </>
   );
 };
 
