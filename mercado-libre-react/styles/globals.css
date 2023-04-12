@@ -467,7 +467,7 @@ nav{
   display: flex;
   height: 250px;
   width: 100%;
-  background-image: url("../media/beneficios 1.png");
+  background-image: url("/media/beneficios 1.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: bottom;
@@ -497,7 +497,7 @@ nav{
   display: flex;
   height: 250px;
   width: 100%;
-  background-image: url("../media/beneficios 2.png");
+  background-image: url("/media/beneficios 2.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: bottom;
@@ -509,7 +509,7 @@ nav{
   display: flex;
   height: 250px;
   width: 100%;
-  background-image: url("../media/beneficios 3.png");
+  background-image: url("/media/beneficios 3.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: bottom;
@@ -625,7 +625,7 @@ nav{
   height: 340px;
   padding-top: 50px;
   row-gap: 12px;
-  background-image: url("../media/mejores 1.png");
+  background-image: url("/media/mejores 1.png");
   background-repeat: no-repeat;
   background-size: 100%;
   background-color: #FFFFFF;
@@ -639,7 +639,7 @@ nav{
   padding-top: 50px;
   height: 340px;
   row-gap: 12px;
-  background-image: url("../media/mejores 2.png");
+  background-image: url("/media/mejores 2.png");
   background-repeat: no-repeat;
   background-size: 100%;
   background-color: #FFFFFF;
@@ -653,7 +653,7 @@ nav{
   padding-top: 50px;
   height: 340px;
   row-gap: 12px;
-  background-image: url("../media/mejores 3.png");
+  background-image: url("/media/mejores 3.png");
   background-repeat: no-repeat;
   background-size: 100%;
   background-color: #FFFFFF;
@@ -667,7 +667,7 @@ nav{
   padding-top: 50px;
   height: 340px;
   row-gap: 12px;
-  background-image: url("../media/mejores 4.png");
+  background-image: url("/media/mejores 4.png");
   background-repeat: no-repeat;
   background-size: 100%;
   background-color: #FFFFFF;
