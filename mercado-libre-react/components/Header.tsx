@@ -55,12 +55,12 @@ const Desktop = () => {
         <>
             <div className='hidden lg:flex flex-row gap-x-[52px]'>
                 <div className="grow-0 text-13px pl-3">
-                    <Link href="#" className='text-gray-dark'><span>Ingresa tu domicilio</span></Link>
+                    <Link href="/" className='text-gray-dark'><span>Ingresa tu domicilio</span></Link>
                 </div>
                 <div className="grow">
                     <ul className="list-none">
                         <li className='inline-block mx-1'>
-                            <Link href="#" className='text-gray-transparent flex flex-row items-center gap-x-1'>
+                            <Link href="/" className='text-gray-transparent flex flex-row items-center gap-x-1'>
                                 <span>Categorías</span>
                                 <svg width="9" height="10" viewBox="0 0 9 10" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <mask id="path-1-inside-1_1_16" fill="white">
@@ -70,19 +70,19 @@ const Desktop = () => {
                                 </svg>
                             </Link>
                         </li>
-                        <li className='inline-block mx-1'><Link href="#" className='text-gray-transparent'>Ofertas</Link></li>
-                        <li className='inline-block mx-1'><Link href="#" className='text-gray-transparent'>Historial</Link></li>
-                        <li className='inline-block mx-1'><Link href="#" className='text-gray-transparent'>Supermercado</Link></li>
-                        <li className='inline-block mx-1'><Link href="#" className='text-gray-transparent'>Moda</Link></li>
-                        <li className='inline-block mx-1'><Link href="#" className='text-gray-transparent'>Vender</Link></li>
-                        <li className='inline-block mx-1'><Link href="#" className='text-gray-transparent'>Ayuda / PQR</Link></li>
+                        <li className='inline-block mx-1'><Link href="/" className='text-gray-transparent'>Ofertas</Link></li>
+                        <li className='inline-block mx-1'><Link href="/" className='text-gray-transparent'>Historial</Link></li>
+                        <li className='inline-block mx-1'><Link href="/" className='text-gray-transparent'>Supermercado</Link></li>
+                        <li className='inline-block mx-1'><Link href="/" className='text-gray-transparent'>Moda</Link></li>
+                        <li className='inline-block mx-1'><Link href="/" className='text-gray-transparent'>Vender</Link></li>
+                        <li className='inline-block mx-1'><Link href="/" className='text-gray-transparent'>Ayuda / PQR</Link></li>
                     </ul>
                 </div>
                 <div className="grow-0">
                     <ul className="list-none">
-                        <li className='inline-block mx-1'><Link href="#" className='text-gray-dark'>Crea tu cuenta</Link></li>
-                        <li className='inline-block mx-1'><Link href="#" className='text-gray-dark'>Ingresa</Link></li>
-                        <li className='inline-block mx-1'><Link href="#" className='text-gray-dark'>Mis compras</Link></li>
+                        <li className='inline-block mx-1'><Link href="/" className='text-gray-dark'>Crea tu cuenta</Link></li>
+                        <li className='inline-block mx-1'><Link href="/" className='text-gray-dark'>Ingresa</Link></li>
+                        <li className='inline-block mx-1'><Link href="/" className='text-gray-dark'>Mis compras</Link></li>
                     </ul>
                 </div>
                 <div className='grow-0 grid grid-cols-1 justify-center'>
@@ -106,12 +106,12 @@ const Mobile = () => {
             <nav id="navigation" className='hidden'>
                 <div className='flex flex-col gap-x-[52px] bg-yellow'>
                     <div className="grow-0 text-13px pl-3 my-2">
-                        <Link href="#" className='text-gray-dark'><span>Ingresa tu domicilio</span></Link>
+                        <Link href="/" className='text-gray-dark'><span>Ingresa tu domicilio</span></Link>
                     </div>
                     <div className="grow pl-3 my-2">
                         <ul className="list-none">
                             <li className='my-1'>
-                                <Link href="#" className='text-gray-transparent flex flex-row items-center gap-x-1'>
+                                <Link href="/" className='text-gray-transparent flex flex-row items-center gap-x-1'>
                                     <span>Categorías</span>
                                     <svg width="9" height="10" viewBox="0 0 9 10" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <mask id="path-1-inside-1_1_16" fill="white">
@@ -121,19 +121,19 @@ const Mobile = () => {
                                     </svg>
                                 </Link>
                             </li>
-                            <li className='my-1'><Link href="#" className='text-gray-transparent'>Ofertas</Link></li>
-                            <li className='my-1'><Link href="#" className='text-gray-transparent'>Historial</Link></li>
-                            <li className='my-1'><Link href="#" className='text-gray-transparent'>Supermercado</Link></li>
-                            <li className='my-1'><Link href="#" className='text-gray-transparent'>Moda</Link></li>
-                            <li className='my-1'><Link href="#" className='text-gray-transparent'>Vender</Link></li>
-                            <li className='my-1'><Link href="#" className='text-gray-transparent'>Ayuda / PQR</Link></li>
+                            <li className='my-1'><Link href="/" className='text-gray-transparent'>Ofertas</Link></li>
+                            <li className='my-1'><Link href="/" className='text-gray-transparent'>Historial</Link></li>
+                            <li className='my-1'><Link href="/" className='text-gray-transparent'>Supermercado</Link></li>
+                            <li className='my-1'><Link href="/" className='text-gray-transparent'>Moda</Link></li>
+                            <li className='my-1'><Link href="/" className='text-gray-transparent'>Vender</Link></li>
+                            <li className='my-1'><Link href="/" className='text-gray-transparent'>Ayuda / PQR</Link></li>
                         </ul>
                     </div>
                     <div className="grow-0 pl-3 my-2">
                         <ul className="list-none">
-                            <li className='my-1'><Link href="#" className='text-gray-dark'>Crea tu cuenta</Link></li>
-                            <li className='my-1'><Link href="#" className='text-gray-dark'>Ingresa</Link></li>
-                            <li className='my-1'><Link href="#" className='text-gray-dark'>Mis compras</Link></li>
+                            <li className='my-1'><Link href="/" className='text-gray-dark'>Crea tu cuenta</Link></li>
+                            <li className='my-1'><Link href="/" className='text-gray-dark'>Ingresa</Link></li>
+                            <li className='my-1'><Link href="/" className='text-gray-dark'>Mis compras</Link></li>
                         </ul>
                     </div>
                 </div>
