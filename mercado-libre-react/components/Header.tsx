@@ -1,6 +1,5 @@
-import Image from 'next/image'
+import Image from 'next/image';
 import Link from 'next/link';
-import React from 'react';
 import { useState } from 'react';
 import { MdMenu, MdMenuOpen } from 'react-icons/md';
 
