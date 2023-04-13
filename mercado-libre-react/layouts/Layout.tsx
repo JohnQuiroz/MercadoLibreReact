@@ -1,9 +1,9 @@
-import { Header } from '@/components/Header';
+import { Header } from 'components/Header';
 import React from 'react';
 
 const Layout = () => {
     return (
-        <div className="layout">
+        <div>
             <Header />
             <main>
                 <div className="container">
