@@ -1,3 +1,4 @@
+import Banner from '@components/Banner';
 import { Header } from 'components/Header';
 import React from 'react';
 
@@ -7,19 +8,7 @@ const Layout = () => {
             <Header />
             <main>
                 <div className="container">
-                    <div className="slider-container">
-                        <ul className="banner-list">
-                            <li><a href="#"><img src="media/banner.webp" alt="banner" /></a></li>
-                        </ul>
-                        <ul className="unordered">
-                            <li><a href="#"></a></li>
-                            <li><a href="#"></a></li>
-                            <li><a href="#"></a></li>
-                            <li><a href="#"></a></li>
-                            <li><a href="#"></a></li>
-                            <li><a href="#"></a></li>
-                        </ul>
-                    </div>
+                    <Banner />
                     <div className="first-container">
                         <div className="advantages-section">
                             <div className="advantages-first">
