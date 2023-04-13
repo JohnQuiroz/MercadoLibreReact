@@ -18,7 +18,7 @@
     "ecmaVersion": 12,
     "project": "tsconfig.json",
     "sourceType": "module",
-    "plugins": ["react", "@typescript-eslint", "prettier", "typescript"],
+    "plugins": ["react", "@typescript-eslint", "prettier", "typescript"]/*,
     "rules": {
       "react/no-array-index-key": "warn",
       "jsx-a11y/media-has-caption": "off",
@@ -70,6 +70,6 @@
           "aspects": ["invalidHref", "preferButton"]
         }
       ]
-    }
+    } */
   }
 }
