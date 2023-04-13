@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link';
 import React from 'react';
 import { useState } from 'react';
 import { MdMenu, MdMenuOpen } from 'react-icons/md';
@@ -12,9 +13,9 @@ const Header = () => {
                     <div className="w-4/5 lg:h-[92px] h-12 flex flex-col gap-y-2 text-13px">
                         <div className='flex flex-row gap-x-[52px] items-center'>
                             <div className="w-32 h-8">
-                                <a href="index.html">
+                                <Link href="/">
                                     <Image className='w-full' src="/media/logo.png" alt="logo" width={100} height={100} />
-                                </a>
+                                </Link>
                             </div>
                             <div className="h-14 w-[600px]">
                                 <form className="form-search">
@@ -55,12 +56,12 @@ const Desktop = () => {
         <>
             <div className='hidden lg:flex flex-row gap-x-[52px]'>
                 <div className="grow-0 text-13px pl-3">
-                    <a href="#" className='text-gray-dark'><span>Ingresa tu domicilio</span></a>
+                    <Link href="#" className='text-gray-dark'><span>Ingresa tu domicilio</span></Link>
                 </div>
                 <div className="grow">
                     <ul className="list-none">
                         <li className='inline-block mx-1'>
-                            <a href="#" className='text-gray-transparent flex flex-row items-center gap-x-1'>
+                            <Link href="#" className='text-gray-transparent flex flex-row items-center gap-x-1'>
                                 <span>Categorías</span>
                                 <svg width="9" height="10" viewBox="0 0 9 10" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <mask id="path-1-inside-1_1_16" fill="white">
@@ -68,21 +69,21 @@ const Desktop = () => {
                                     </mask>
                                     <path d="M4.54688 9.24265L3.48621 10.3033L4.54688 11.364L5.60754 10.3033L4.54688 9.24265ZM7.72886 3.93934L3.48621 8.18199L5.60754 10.3033L9.85018 6.06066L7.72886 3.93934ZM5.60754 8.18199L1.36489 3.93934L-0.756431 6.06066L3.48621 10.3033L5.60754 8.18199Z" fill="black" fill-opacity="0.3" mask="url(#path-1-inside-1_1_16)" />
                                 </svg>
-                            </a>
+                            </Link>
                         </li>
-                        <li className='inline-block mx-1'><a href="#" className='text-gray-transparent'>Ofertas</a></li>
-                        <li className='inline-block mx-1'><a href="#" className='text-gray-transparent'>Historial</a></li>
-                        <li className='inline-block mx-1'><a href="#" className='text-gray-transparent'>Supermercado</a></li>
-                        <li className='inline-block mx-1'><a href="#" className='text-gray-transparent'>Moda</a></li>
-                        <li className='inline-block mx-1'><a href="#" className='text-gray-transparent'>Vender</a></li>
-                        <li className='inline-block mx-1'><a href="#" className='text-gray-transparent'>Ayuda / PQR</a></li>
+                        <li className='inline-block mx-1'><Link href="#" className='text-gray-transparent'>Ofertas</Link></li>
+                        <li className='inline-block mx-1'><Link href="#" className='text-gray-transparent'>Historial</Link></li>
+                        <li className='inline-block mx-1'><Link href="#" className='text-gray-transparent'>Supermercado</Link></li>
+                        <li className='inline-block mx-1'><Link href="#" className='text-gray-transparent'>Moda</Link></li>
+                        <li className='inline-block mx-1'><Link href="#" className='text-gray-transparent'>Vender</Link></li>
+                        <li className='inline-block mx-1'><Link href="#" className='text-gray-transparent'>Ayuda / PQR</Link></li>
                     </ul>
                 </div>
                 <div className="grow-0">
                     <ul className="list-none">
-                        <li className='inline-block mx-1'><a href="#" className='text-gray-dark'>Crea tu cuenta</a></li>
-                        <li className='inline-block mx-1'><a href="#" className='text-gray-dark'>Ingresa</a></li>
-                        <li className='inline-block mx-1'><a href="#" className='text-gray-dark'>Mis compras</a></li>
+                        <li className='inline-block mx-1'><Link href="#" className='text-gray-dark'>Crea tu cuenta</Link></li>
+                        <li className='inline-block mx-1'><Link href="#" className='text-gray-dark'>Ingresa</Link></li>
+                        <li className='inline-block mx-1'><Link href="#" className='text-gray-dark'>Mis compras</Link></li>
                     </ul>
                 </div>
                 <div className='grow-0 grid grid-cols-1 justify-center'>
@@ -103,41 +104,41 @@ const Desktop = () => {
 const Mobile = () => {
     return (
         <>
-        <nav id="navigation" className='hidden'>
-            <div className='flex flex-col gap-x-[52px] bg-yellow'>
-                <div className="grow-0 text-13px pl-3 my-2">
-                    <a href="#" className='text-gray-dark'><span>Ingresa tu domicilio</span></a>
+            <nav id="navigation" className='hidden'>
+                <div className='flex flex-col gap-x-[52px] bg-yellow'>
+                    <div className="grow-0 text-13px pl-3 my-2">
+                        <Link href="#" className='text-gray-dark'><span>Ingresa tu domicilio</span></Link>
+                    </div>
+                    <div className="grow pl-3 my-2">
+                        <ul className="list-none">
+                            <li className='my-1'>
+                                <Link href="#" className='text-gray-transparent flex flex-row items-center gap-x-1'>
+                                    <span>Categorías</span>
+                                    <svg width="9" height="10" viewBox="0 0 9 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <mask id="path-1-inside-1_1_16" fill="white">
+                                            <path d="M4.54688 0.757355L8.78952 5L4.54688 9.24265L0.304229 5L4.54688 0.757355Z" />
+                                        </mask>
+                                        <path d="M4.54688 9.24265L3.48621 10.3033L4.54688 11.364L5.60754 10.3033L4.54688 9.24265ZM7.72886 3.93934L3.48621 8.18199L5.60754 10.3033L9.85018 6.06066L7.72886 3.93934ZM5.60754 8.18199L1.36489 3.93934L-0.756431 6.06066L3.48621 10.3033L5.60754 8.18199Z" fill="black" fill-opacity="0.3" mask="url(#path-1-inside-1_1_16)" />
+                                    </svg>
+                                </Link>
+                            </li>
+                            <li className='my-1'><Link href="#" className='text-gray-transparent'>Ofertas</Link></li>
+                            <li className='my-1'><Link href="#" className='text-gray-transparent'>Historial</Link></li>
+                            <li className='my-1'><Link href="#" className='text-gray-transparent'>Supermercado</Link></li>
+                            <li className='my-1'><Link href="#" className='text-gray-transparent'>Moda</Link></li>
+                            <li className='my-1'><Link href="#" className='text-gray-transparent'>Vender</Link></li>
+                            <li className='my-1'><Link href="#" className='text-gray-transparent'>Ayuda / PQR</Link></li>
+                        </ul>
+                    </div>
+                    <div className="grow-0 pl-3 my-2">
+                        <ul className="list-none">
+                            <li className='my-1'><Link href="#" className='text-gray-dark'>Crea tu cuenta</Link></li>
+                            <li className='my-1'><Link href="#" className='text-gray-dark'>Ingresa</Link></li>
+                            <li className='my-1'><Link href="#" className='text-gray-dark'>Mis compras</Link></li>
+                        </ul>
+                    </div>
                 </div>
-                <div className="grow pl-3 my-2">
-                    <ul className="list-none">
-                        <li className='my-1'>
-                            <a href="#" className='text-gray-transparent flex flex-row items-center gap-x-1'>
-                                <span>Categorías</span>
-                                <svg width="9" height="10" viewBox="0 0 9 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <mask id="path-1-inside-1_1_16" fill="white">
-                                        <path d="M4.54688 0.757355L8.78952 5L4.54688 9.24265L0.304229 5L4.54688 0.757355Z" />
-                                    </mask>
-                                    <path d="M4.54688 9.24265L3.48621 10.3033L4.54688 11.364L5.60754 10.3033L4.54688 9.24265ZM7.72886 3.93934L3.48621 8.18199L5.60754 10.3033L9.85018 6.06066L7.72886 3.93934ZM5.60754 8.18199L1.36489 3.93934L-0.756431 6.06066L3.48621 10.3033L5.60754 8.18199Z" fill="black" fill-opacity="0.3" mask="url(#path-1-inside-1_1_16)" />
-                                </svg>
-                            </a>
-                        </li>
-                        <li className='my-1'><a href="#" className='text-gray-transparent'>Ofertas</a></li>
-                        <li className='my-1'><a href="#" className='text-gray-transparent'>Historial</a></li>
-                        <li className='my-1'><a href="#" className='text-gray-transparent'>Supermercado</a></li>
-                        <li className='my-1'><a href="#" className='text-gray-transparent'>Moda</a></li>
-                        <li className='my-1'><a href="#" className='text-gray-transparent'>Vender</a></li>
-                        <li className='my-1'><a href="#" className='text-gray-transparent'>Ayuda / PQR</a></li>
-                    </ul>
-                </div>
-                <div className="grow-0 pl-3 my-2">
-                    <ul className="list-none">
-                        <li className='my-1'><a href="#" className='text-gray-dark'>Crea tu cuenta</a></li>
-                        <li className='my-1'><a href="#" className='text-gray-dark'>Ingresa</a></li>
-                        <li className='my-1'><a href="#" className='text-gray-dark'>Mis compras</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+            </nav>
         </>
     );
 }
