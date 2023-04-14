@@ -104,10 +104,6 @@ body{
   @apply grow-0 pl-3 my-2;
 }
 
-.container{
-  width: 100%;
-}
-
 .slider-container{
   @apply grid grid-rows-2 h-full w-screen justify-center;
 }
@@ -125,64 +121,35 @@ body{
 }
 
 .unordered li{
-  list-style-type: circle;
-  list-style-position: inside;
-  color: #FFFFFF;
+  @apply list-disc list-inside text-white;
 }
 
 .first-container{
-  display: flex;
-  flex-direction: column;
-  background-color: #ECECEC;
-  margin-top: 40px;
-  padding-bottom: 72px;
-  justify-content: center;
-  align-items: center;
+  @apply flex flex-col justify-center items-center bg-white-dark mt-10 pb-16;
 }
 
 .advantages-section{
-  display: grid;
-  grid-template-columns: 75% 25%;
-  grid-template-areas: "advantages-first advantages-second";
-  background-color: #FFFFFF;
-  width: 80%;
-}
-
-.advantages-first{
-  display: flex;
-  flex-direction: row;
-  grid-area: advantages-first;
-  justify-content: space-around;
-  padding: 12px;
-}
-
-.advantages-second{
-  grid-area: advantages-second;
-  border-left: 1px solid #EEEEEE;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  padding: 12px;
-}
-
-.advantages-logo{
-  margin-right: 10px;
+  @apply flex justify-around w-4/5 bg-white lg:h-24 lg:py-0 h-auto p-2 items-center gap-x-2;
 }
 
 .advantages{
-  display: flex;
-  flex-direction: row;
+  @apply flex lg:flex-row flex-col w-1/4 items-center px-5;
+}
+
+.advantages-logo{
+  @apply mr-2;
 }
 
 .advantages-description{
-  display: flex;
-  flex-direction: column;
-  font-size: 17px;
+  @apply flex flex-col text-17px;
 }
 
 .advantages-description a{
-  color: #3483FA;
-  font-size: 13px;
+  @apply text-blue text-13px;
+}
+
+.advantages-border{
+  @apply border-l border-solid border-white-light;
 }
 
 .offers-section{
