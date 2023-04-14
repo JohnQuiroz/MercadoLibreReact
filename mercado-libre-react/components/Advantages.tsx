@@ -105,4 +105,4 @@ const Advantages = () => {
     )
 }
 
-export default Advantages
+export {Advantages}

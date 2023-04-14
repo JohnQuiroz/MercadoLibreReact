@@ -165,7 +165,7 @@ body{
 }
 
 .offers-container{
-  @apply flex flex-row justify-around gap-x-4 mt-5;
+  @apply flex flex-row justify-around gap-4 mt-5;
 }
 
 .card{
@@ -181,34 +181,27 @@ body{
 }
 
 .card-content{
-  display: flex;
-  flex-direction: column;
-  row-gap: 8px;
-  width: 85%;
-  margin-top: 19px;
+  @apply flex flex-col gap-2 w-4/5 mt-5;
+}
+
+.card-content div{
+  @apply flex flex-col lg:flex-row items-center gap-2;
 }
 
 .price{
-  color: #333333;
-  font-size: 23px;
+  @apply lg:text-23px text-19px text-gray-dark;
 }
 
 .sale{
-  color: #00A650;
-  font-size: 14px;
+  @apply text-[.875rem] text-green;
 }
 
 .send{
-  color: #00A650;
-  font-size: 14px;
-  font-weight: bold;
+  @apply text-[.875rem] text-green font-bold;
 }
 
 .card-content-compound{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  column-gap: 6px;
+  @apply flex flex-row items-center gap-2;
 }
 
 .suscribe-section{
