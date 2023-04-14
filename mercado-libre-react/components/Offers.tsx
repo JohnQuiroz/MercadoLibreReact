@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 const Offers = () => {
@@ -6,7 +7,7 @@ const Offers = () => {
         <section className="offers-section">
             <div className="offers-title">
                 <span>Ofertas</span>
-                <a href="#">Ver todas</a>
+                <Link href="/">Ver todas</Link>
             </div>
             <div className="offers-container">
                 <div className="card">
