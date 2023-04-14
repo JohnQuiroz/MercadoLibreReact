@@ -3,19 +3,41 @@
 @tailwind utilities;
 
 *{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+  @apply m-0 p-0 box-border;
   font-family: 'Roboto', sans-serif;
   text-decoration: none;
 }
 
 ::-webkit-scrollbar {
-  display: none;
+  @apply hidden;
 }
 
 body{
-  width: 100%;
+  @apply w-full;
+}
+
+.header{
+  @apply w-screen bg-yellow lg:h-[100px] h-14 flex justify-center text-gray-dark;
+}
+
+.nav{
+  @apply flex justify-center w-full lg:h-full h-12;
+}
+
+.nav-container{
+  @apply w-4/5 lg:h-[92px] h-12 flex flex-col gap-y-2 text-13px;
+}
+
+.nav-first-line{
+  @apply flex flex-row gap-x-[52px] items-center;
+}
+
+.logo{
+  @apply w-32 h-8;
+}
+
+.search{
+  @apply h-14 w-[600px];
 }
 
 .form-search{
@@ -30,8 +52,56 @@ body{
   @apply left-auto absolute z-[920] p-0 bg-none text-22px text-gray-light w-11 h-7 right-0 top-[14px] bottom-0 border-l border-l-border border-solid;
 }
 
-main{
-  background-color: #EBEBEB;
+.navbar-menu{
+  @apply lg:hidden text-28px;
+}
+
+.shopping{
+  @apply grid grid-cols-1 justify-center lg:hidden w-11;
+}
+
+.cart{
+  @apply flex row-span-full col-start-1 col-span-1 self-center justify-center;
+}
+
+.cart-counter{
+  @apply flex row-span-full col-start-1 col-span-1 justify-center;
+}
+
+.nav-second-line{
+  @apply hidden lg:flex flex-row gap-x-[52px];
+}
+
+.address{
+  @apply grow-0 text-13px pl-3;
+}
+
+.list-inline{
+  @apply inline-block mx-1
+}
+
+.categories-menu{
+  @apply text-gray-transparent flex flex-row items-center gap-x-1;
+}
+
+.shopping-desktop{
+  @apply grow-0 grid grid-cols-1 justify-center;
+}
+
+.navbar-mobile{
+  @apply flex flex-col gap-x-[52px] bg-yellow;
+}
+
+.address-mobile{
+  @apply grow-0 pl-3 my-2;
+}
+
+.options-mobile{
+  @apply grow pl-3 my-2;
+}
+
+.account-mobile{
+  @apply grow-0 pl-3 my-2;
 }
 
 .container{
@@ -39,40 +109,19 @@ main{
 }
 
 .slider-container{
-  display: flex;
-  height: 100%;
-  width: 100%;
-  z-index: 910;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
+  @apply grid grid-rows-2 h-full w-screen justify-center;
 }
 
 .banner-list{
-  height: 100%;
-  position: relative;
-  z-index: 915;
-  display: flex;
-  width: 100%;
+  @apply col-span-full row-start-1 row-span-2 flex;
 }
 
 .banner-list img{
-  width: 100%;
+  @apply w-full;
 }
 
 .unordered{
-  display: flex;
-  left: auto;
-  position: absolute;
-  z-index: 920;
-  padding: 0;
-  background: none;
-  right: auto;
-  bottom: 4px;
+  @apply col-span-full row-start-2 row-span-2 flex justify-center items-end;
 }
 
 .unordered li{
