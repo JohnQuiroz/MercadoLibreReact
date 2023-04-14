@@ -96,4 +96,4 @@ const Offers = () => {
     )
 }
 
-export default Offers
+export {Offers}

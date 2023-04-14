@@ -1,6 +1,6 @@
-import Advantages from '@components/Advantages';
-import Banner from '@components/Banner';
-import Offers from '@components/Offers';
+import {Advantages} from '@components/Advantages';
+import {Banner} from '@components/Banner';
+import {Offers} from '@components/Offers';
 import { Header } from 'components/Header';
 import React from 'react';
 
