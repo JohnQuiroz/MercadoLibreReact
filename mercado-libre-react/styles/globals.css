@@ -223,7 +223,7 @@ body{
 }
 
 .back-arrow-button{
-  @apply rounded-full bg-white shadow-20;
+  @apply rounded-full bg-white shadow-20 text-blue;
 }
 
 .next-arrow-desktop{
@@ -231,7 +231,7 @@ body{
 }
 
 .next-arrow-button{
-  @apply rounded-full bg-white shadow-20;
+  @apply rounded-full bg-white shadow-20 text-blue;
 }
 
 .back-arrow-mobile{

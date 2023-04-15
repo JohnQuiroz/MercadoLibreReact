@@ -85,7 +85,7 @@ const Offers = () => {
                         }
                         filterDesktop = _.filter(offersData, (offer) => (offer.id <= min + 4) && (offer.id >= min));
                     }}>
-                        <IconContext.Provider value={{ color: "blue", size: "100%" }}>
+                        <IconContext.Provider value={{ size: "100%" }}>
                             <IoIosArrowBack />
                         </IconContext.Provider>
                     </button>
@@ -99,7 +99,7 @@ const Offers = () => {
                         }
                         filterDesktop = _.filter(offersData, (offer) => (offer.id <= min + 4) && (offer.id >= min));
                     }}>
-                        <IconContext.Provider value={{ color: "blue", size: "100%" }}>
+                        <IconContext.Provider value={{ size: "100%" }}>
                             <IoIosArrowForward />
                         </IconContext.Provider>
                     </button>
@@ -113,7 +113,7 @@ const Offers = () => {
                         }
                         filterDesktop = _.filter(offersData, (offer) => (offer.id <= min + 4) && (offer.id >= min));
                     }}>
-                        <IconContext.Provider value={{ color: "blue", size: "100%" }}>
+                        <IconContext.Provider value={{ size: "100%" }}>
                             <IoIosArrowBack />
                         </IconContext.Provider>
                     </button>
@@ -127,7 +127,7 @@ const Offers = () => {
                         }
                         filterDesktop = _.filter(offersData, (offer) => (offer.id <= min + 4) && (offer.id >= min));
                     }}>
-                        <IconContext.Provider value={{ color: "blue", size: "100%" }}>
+                        <IconContext.Provider value={{ size: "100%" }}>
                             <IoIosArrowForward />
                         </IconContext.Provider>
                     </button>
