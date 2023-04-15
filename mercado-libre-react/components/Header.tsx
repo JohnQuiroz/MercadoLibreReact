@@ -4,7 +4,7 @@ import { useState } from 'react';
 import { MdMenu, MdMenuOpen } from 'react-icons/md';
 
 const Header = () => {
-    const [openNavbar, setOpenNavbar] = useState(false);
+    const [openNavbar, setOpenNavbar] = useState<boolean>(false);
     return (
         <>
             <header className='header'>
@@ -19,14 +19,11 @@ const Header = () => {
                             <div className="search">
                                 <form className="form-search">
                                     <input type="text" placeholder="Buscar productos, marcas y más..." className="input-search" />
-                                    <button type="submit" className="button-search"></button>
+                                    <button type="button" className="button-search"></button>
                                 </form>
                             </div>
                             <div className='navbar-menu'>
-                                <button onClick={() => {
-                                    setOpenNavbar(!openNavbar);
-                                    document.getElementById('navigation')?.classList.toggle('hidden');
-                                }}>
+                                <button type='button' onClick={() => setOpenNavbar(!openNavbar)}>
                                     {openNavbar ? <MdMenuOpen /> : <MdMenu />}
                                 </button>
                             </div>
@@ -45,7 +42,7 @@ const Header = () => {
                     </div>
                 </nav>
             </header>
-            <Mobile />
+            {openNavbar && <Mobile />}
         </>
     );
 };
@@ -103,7 +100,7 @@ const Desktop = () => {
 const Mobile = () => {
     return (
         <>
-            <nav id="navigation" className='hidden'>
+            <nav id="navigation">
                 <div className='navbar-mobile'>
                     <div className="address-mobile">
                         <Link href="/" className='text-gray-dark'><span>Ingresa tu domicilio</span></Link>
