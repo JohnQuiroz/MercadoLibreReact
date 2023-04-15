@@ -113,7 +113,7 @@ const Layout = () => {
                                 </div>
                             </div>
                             <div className="suscribe-button-container">
-                                <button className="suscribe-button">Suscríbete</button>
+                                <button type='button' className="suscribe-button">Suscríbete</button>
                             </div>
                         </section>
                         <section className="benefits-section">
@@ -179,7 +179,7 @@ const Layout = () => {
                                             <span>HOGAR Y MUEBLES</span>
                                             <span>HASTA 50% OFF</span>
                                             <div>
-                                                <button>Ver más</button>
+                                                <button type='button'>Ver más</button>
                                             </div>
                                         </div>
                                         <div className="discover-description-content-img">
@@ -194,7 +194,7 @@ const Layout = () => {
                                             <span>POR SOLO</span>
                                             <span>$17899 CADA MES</span>
                                             <div>
-                                                <button>Suscribirme</button>
+                                                <button type='button'>Suscribirme</button>
                                             </div>
                                         </div>
                                         <div className="discover-description-content-img">
@@ -277,7 +277,7 @@ const Layout = () => {
                         <section className="collections-section">
                             <div className="collections-title">
                                 <span>Colecciones:</span>
-                                <button>
+                                <button type='button'>
                                     Supermercado
                                     <svg width="15" height="24" viewBox="0 0 15 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <g clip-path="url(#clip0_1_398)">

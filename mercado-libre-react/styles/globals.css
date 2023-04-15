@@ -153,23 +153,37 @@ body{
 }
 
 .offers-section{
-  @apply w-4/5 pt-12;
+  /* @apply pt-12 grid grid-cols-10 grid-rows-2 auto-rows-fr justify-center w-[87%]; */
+  @apply w-[90%] pt-12 justify-center flex flex-col items-center;
+}
+
+.offers-title{
+  @apply w-[89%];
 }
 
 .offers-title span{
-  @apply text-25px mr-4 text-gray-light;
+  @apply text-25px text-gray-light m-2;
 }
 
 .offers-title a{
-  @apply text-blue text-15px;
+  @apply text-blue text-15px m-2;
 }
 
 .offers-container{
-  @apply flex flex-row justify-around gap-4 mt-5;
+  /* @apply row-start-2 row-span-full col-start-2 col-span-9 flex flex-row justify-around gap-4 mt-5; */
+  @apply grid grid-cols-24 grid-rows-1 items-center justify-center;
+}
+
+.offers-cards-desktop{
+  @apply hidden col-start-2 col-span-22 row-start-1 lg:flex flex-row justify-around gap-4 mt-5;
+}
+
+.offers-cards-mobile{
+  @apply lg:hidden col-start-2 col-span-22 row-start-1 flex flex-row justify-around gap-4 mt-5;
 }
 
 .card{
-  @apply bg-white h-80;
+  @apply bg-white;
 }
 
 .card img{
@@ -177,7 +191,7 @@ body{
 }
 
 .card-description{
-  @apply flex justify-center items-center border-t border-solid border-white-light;
+  @apply flex justify-center items-center border-t border-solid border-white-light py-2;
 }
 
 .card-content{
@@ -185,11 +199,11 @@ body{
 }
 
 .card-content div{
-  @apply flex flex-col lg:flex-row items-center gap-2;
+  @apply flex flex-col lg:flex-row items-center gap-1;
 }
 
 .price{
-  @apply lg:text-23px text-19px text-gray-dark;
+  @apply text-23px text-gray-dark;
 }
 
 .sale{
@@ -201,7 +215,31 @@ body{
 }
 
 .card-content-compound{
-  @apply flex flex-row items-center gap-2;
+  @apply flex flex-row items-center gap-1;
+}
+
+.back-arrow-desktop{
+  @apply hidden lg:flex col-start-1 col-span-2 row-start-1 w-full;
+}
+
+.back-arrow-button{
+  @apply rounded-full bg-white shadow-20 text-blue;
+}
+
+.next-arrow-desktop{
+  @apply hidden lg:flex col-start-23 col-span-24 row-start-1 w-full;
+}
+
+.next-arrow-button{
+  @apply rounded-full bg-white shadow-20 text-blue;
+}
+
+.back-arrow-mobile{
+  @apply lg:hidden flex col-start-1 col-span-2 row-start-1 w-full;
+}
+
+.next-arrow-mobile{
+  @apply lg:hidden flex col-start-23 col-span-24 row-start-1 w-full;
 }
 
 .suscribe-section{
