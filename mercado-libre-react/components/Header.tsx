@@ -4,7 +4,6 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { useState } from 'react';
 import { MdMenu, MdMenuOpen } from 'react-icons/md';
-import { toast } from 'react-toastify';
 
 const Header = () => {
     const [openNavbar, setOpenNavbar] = useState<boolean>(false);
@@ -46,7 +45,7 @@ interface ShoppingCartProps {
 }
 
 const ShoppingCart = ({ screen }: ShoppingCartProps) => {
-    const { cart, setCart, counter, setCounter, totalPrice, setTotalPrice } = useCartContext();
+    const { cart, counter, totalPrice } = useCartContext();
     const [openModalCart, setOpenModalCart] = useState<boolean>(false);
 
     return (
