@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react'
 
 const Benefits = () => {
@@ -5,11 +6,11 @@ const Benefits = () => {
     <section className="benefits-section">
     <div className="benefits-title">
         <span>Beneficios de Mercado Puntos</span>
-        <a href="#">Ver todos los beneficios</a>
+        <Link href="/">Ver todos los beneficios</Link>
     </div>
     <div>
         <div className="benefits-description">
-            <a href="#">
+            <Link href="/">
                 <div className="benefits-description-disney">
                     <div className="benefits-description-content">
                         <div className="benefits-description-content-img">
@@ -21,8 +22,8 @@ const Benefits = () => {
                         </div>
                     </div>
                 </div>
-            </a>
-            <a href="#">
+            </Link>
+            <Link href="/">
                 <div className="benefits-description-hbo">
                     <div className="benefits-description-content">
                         <div className="benefits-description-content-img">
@@ -35,8 +36,8 @@ const Benefits = () => {
                         </div>
                     </div>
                 </div>
-            </a>
-            <a href="#">
+            </Link>
+            <Link href="/">
                 <div className="benefits-description-paramount">
                     <div className="benefits-description-content">
                         <div className="benefits-description-content-img">
@@ -49,7 +50,7 @@ const Benefits = () => {
                         </div>
                     </div>
                 </div>
-            </a>
+            </Link>
         </div>
     </div>
 </section>
