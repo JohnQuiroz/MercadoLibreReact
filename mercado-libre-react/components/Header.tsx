@@ -1,4 +1,4 @@
-import { CartContextProvider, useCartContext } from '@context/cartContext';
+import { useCartContext } from '@context/cartContext';
 import Image from 'next/image';
 import Link from 'next/link';
 import { useState } from 'react';
@@ -45,7 +45,6 @@ interface ShoppingCartProps {
 
 const ShoppingCart = ({screen}: ShoppingCartProps) => {
     const { counter } = useCartContext();
-    console.log(counter);
     return (
         <div className={`shopping${screen}`}>
             <div className='cart'>

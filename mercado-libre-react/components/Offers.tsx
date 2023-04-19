@@ -1,6 +1,5 @@
-import Link from 'next/link'
-import React from 'react'
-import _ from 'lodash'
+import Link from 'next/link';
+import React from 'react';
 import { OffersContainer } from '@layouts/OffersContainer';
 
 const Offers = () => {

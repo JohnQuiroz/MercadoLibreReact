@@ -4,7 +4,7 @@ import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import { offersData } from "utils/offersData";
 import _ from "lodash";
 import Image from "next/image";
-import { CartContextProvider, CartType, useCartContext } from "@context/cartContext";
+import { CartType, useCartContext } from "@context/cartContext";
 import { toast } from "react-toastify";
 
 interface OffersContainerProps {
