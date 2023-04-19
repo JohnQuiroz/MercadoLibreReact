@@ -3,6 +3,7 @@ import {Banner} from '@components/Banner';
 import { Discover } from '@components/Discover';
 import { Benefits } from '@components/Benefits';
 import {Offers} from '@components/Offers';
+import { Stores } from '@components/Stores';
 import { Header } from 'components/Header';
 import React from 'react';
 import { Suscribirse } from '@components/Suscribirse';
