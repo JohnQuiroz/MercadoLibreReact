@@ -104,6 +104,30 @@ body{
   @apply grow-0 pl-3 my-2;
 }
 
+.cart-modal{
+  @apply flex flex-col w-full h-full gap-2;
+}
+
+.cart-modal-items{
+  @apply flex flex-row w-full h-full justify-between gap-2 items-center;
+}
+
+.cart-modal-item{
+  @apply flex flex-col w-full h-full items-center justify-between gap-2 border border-solid border-gray-lighter border-opacity-25 rounded-lg;
+}
+
+.cart-modal-image{
+  @apply relative w-24 h-24 m-2;
+}
+
+.cart-modal-price{
+  @apply flex justify-center items-center;
+}
+
+.cart-modal-total{
+  @apply flex justify-end items-center font-extrabold;
+}
+
 .slider-container{
   @apply grid grid-rows-2 h-full w-screen justify-center;
 }

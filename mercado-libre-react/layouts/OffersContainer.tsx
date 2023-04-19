@@ -94,6 +94,11 @@ const ButtonCart = ({ offer }: ButtonCartProps) => {
             delivery: e.currentTarget.getElementsByClassName("send")[0] == null ? false : true,
             svg: e.currentTarget.getElementsByClassName("card-content-compound")[0].getElementsByTagName("svg")[0] == null ? false : true
         };
+        newElement.image = newElement.image.replace('http://localhost:3000/_next/image?url=%2F', '/');
+        newElement.image = newElement.image.replace('&w=3840&q=75', '');
+        newElement.image = newElement.image.replace('%2F', '/');
+        newElement.image = newElement.image.replace('%20', ' ');
+        console.log(newElement.image);
         setCounter(counter + 1);
         setCart((prev) => [...prev, newElement]);
         setTotalPrice(totalPrice + newElement.price);
