@@ -1,5 +1,6 @@
 import {Advantages} from '@components/Advantages';
 import {Banner} from '@components/Banner';
+import { Discover } from '@components/Discover';
 import { Benefits } from '@components/Benefits';
 import {Offers} from '@components/Offers';
 import { Header } from 'components/Header';
