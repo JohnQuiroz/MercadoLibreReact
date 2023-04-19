@@ -4,6 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { useState } from 'react';
 import { MdMenu, MdMenuOpen } from 'react-icons/md';
+import { toast } from 'react-toastify';
 
 const Header = () => {
     const [openNavbar, setOpenNavbar] = useState<boolean>(false);
@@ -45,8 +46,16 @@ interface ShoppingCartProps {
 }
 
 const ShoppingCart = ({ screen }: ShoppingCartProps) => {
-    const { cart, counter, totalPrice } = useCartContext();
+    const { cart, setCart, counter, setCounter, totalPrice, setTotalPrice } = useCartContext();
     const [openModalCart, setOpenModalCart] = useState<boolean>(false);
+
+    const removeItem = (id: number, price: number) => {
+        const newCart = cart.filter((item) => item.id !== id);
+        setCart(newCart);
+        setCounter(counter - 1);
+        setTotalPrice(totalPrice - price);
+        toast.success('Producto eliminado del carrito');
+    };
 
     return (
         <div className={`shopping${screen}`}>
@@ -67,7 +76,7 @@ const ShoppingCart = ({ screen }: ShoppingCartProps) => {
                         <div className='cart-modal-items'>
                             {cart.map((item) => (
                                 <div className='cart-modal-item' key={`item_${item.id}`}>
-                                    <button type='button'>
+                                    <button type='button' onClick={() => removeItem(item.id, item.price)}>
                                         <div className='cart-modal-image'>
                                             <Image fill src={item.image} alt={item.alt} />
                                         </div>
