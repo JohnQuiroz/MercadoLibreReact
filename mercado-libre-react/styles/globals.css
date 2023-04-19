@@ -153,7 +153,6 @@ body{
 }
 
 .offers-section{
-  /* @apply pt-12 grid grid-cols-10 grid-rows-2 auto-rows-fr justify-center w-[87%]; */
   @apply w-[90%] pt-12 justify-center flex flex-col items-center;
 }
 
@@ -169,21 +168,24 @@ body{
   @apply text-blue text-15px m-2;
 }
 
-.offers-container{
-  /* @apply row-start-2 row-span-full col-start-2 col-span-9 flex flex-row justify-around gap-4 mt-5; */
-  @apply grid grid-cols-24 grid-rows-1 items-center justify-center;
+.offers-container-desktop{
+  @apply hidden lg:grid grid-cols-24 grid-rows-1 items-center justify-center;
 }
 
-.offers-cards-desktop{
-  @apply hidden col-start-2 col-span-22 row-start-1 lg:flex flex-row justify-around gap-4 mt-5;
+.offers-container-mobile{
+  @apply lg:hidden grid grid-cols-24 grid-rows-1 items-center justify-center;
 }
 
-.offers-cards-mobile{
-  @apply lg:hidden col-start-2 col-span-22 row-start-1 flex flex-row justify-around gap-4 mt-5;
+.offers-cards{
+  @apply col-start-2 col-span-22 row-start-1 grid grid-cols-3 lg:grid-cols-5 gap-4 mt-5;
 }
 
 .card{
-  @apply bg-white;
+  @apply bg-white h-96;
+}
+
+.card-img-container{
+  @apply relative h-48;
 }
 
 .card img{
@@ -199,7 +201,7 @@ body{
 }
 
 .card-content div{
-  @apply flex flex-col lg:flex-row items-center gap-1;
+  @apply flex sm:flex-col flex-row items-center gap-1;
 }
 
 .price{
@@ -219,19 +221,19 @@ body{
 }
 
 .back-arrow-desktop{
-  @apply hidden lg:flex col-start-1 col-span-2 row-start-1 w-full;
+  @apply flex col-start-1 col-span-2 row-start-1 w-full;
 }
 
 .back-arrow-button{
-  @apply rounded-full bg-white shadow-20 text-blue;
+  @apply rounded-full bg-white shadow-20 text-blue relative;
 }
 
 .next-arrow-desktop{
-  @apply hidden lg:flex col-start-23 col-span-24 row-start-1 w-full;
+  @apply flex col-start-23 col-span-24 row-start-1 w-full;
 }
 
 .next-arrow-button{
-  @apply rounded-full bg-white shadow-20 text-blue;
+  @apply rounded-full bg-white shadow-20 text-blue relative;
 }
 
 .back-arrow-mobile{
