@@ -2,6 +2,7 @@ import { CartContextProvider } from '@context/cartContext';
 import { Layout } from 'layouts/Layout';
 import Head from 'next/head';
 
+
 const IndexPage = () => {
   return (
     <CartContextProvider>
