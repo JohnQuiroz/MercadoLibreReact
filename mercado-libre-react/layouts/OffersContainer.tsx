@@ -36,7 +36,7 @@ const OffersContainer = ({ increase }: OffersContainerProps) => {
                         )
                     })}
                 </div>
-                <div className="back-arrow-desktop">
+                <div className="back-arrow">
                     <button type='button' className="back-arrow-button" onClick={() => {
                         if (min === 1) {
                             setMin(max);
@@ -50,7 +50,7 @@ const OffersContainer = ({ increase }: OffersContainerProps) => {
                         </IconContext.Provider>
                     </button>
                 </div>
-                <div className='next-arrow-desktop'>
+                <div className='next-arrow'>
                     <button type='button' className="next-arrow-button" onClick={() => {
                         if (min === max) {
                             setMin(1);
