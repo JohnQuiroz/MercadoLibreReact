@@ -41,22 +41,22 @@ body{
 }
 
 .form-search{
-  @apply flex w-full h-full z-[910] justify-center items-center relative top-0 bottom-0 right-0 left-0;
+  @apply grid grid-cols-12 grid-rows-1 w-full h-full justify-center items-center;
 }
 
 .input-search{
-  @apply relative z-[915] flex h-10 w-full text-15px rounded-sm border-solid border-[#00000000] border shadow-20 py-2 pr-14 pl-4;
+  @apply col-start-1 col-span-full row-start-1 row-end-1 w-full h-10 text-15px rounded-sm border-solid border-[#00000000] border shadow-20 py-2 pr-14 pl-4;
 }
 
 .button-search{
-  @apply left-auto absolute z-[920] p-0 bg-none text-22px text-gray-light w-11 h-7 right-0 top-[14px] bottom-0 border-l border-l-border border-solid;
+  @apply col-start-11 lg:col-start-12 col-end-12 row-start-1 row-end-1 p-0 bg-none w-full h-7 border-l border-l-border border-solid;
 }
 
 .navbar-menu{
   @apply lg:hidden text-28px;
 }
 
-.shopping{
+.shopping-mobile button{
   @apply grid grid-cols-1 justify-center lg:hidden w-11;
 }
 
@@ -84,7 +84,7 @@ body{
   @apply text-gray-transparent flex flex-row items-center gap-x-1;
 }
 
-.shopping-desktop{
+.shopping-desktop button{
   @apply grow-0 grid grid-cols-1 justify-center;
 }
 
@@ -149,7 +149,7 @@ body{
 }
 
 .first-container{
-  @apply flex flex-col justify-center items-center bg-white-dark mt-10 pb-16;
+  @apply flex flex-col justify-center items-center bg-white-dark pt-10 pb-16;
 }
 
 .advantages-section{
@@ -177,7 +177,7 @@ body{
 }
 
 .offers-section{
-  @apply w-[90%] pt-12 justify-center flex flex-col items-center;
+  @apply w-[88%] pt-12 justify-center flex flex-col items-center;
 }
 
 .offers-title{
@@ -244,7 +244,7 @@ body{
   @apply flex flex-row items-center gap-1;
 }
 
-.back-arrow-desktop{
+.back-arrow{
   @apply flex col-start-1 col-span-2 row-start-1 w-full;
 }
 
@@ -252,20 +252,12 @@ body{
   @apply rounded-full bg-white shadow-20 text-blue relative;
 }
 
-.next-arrow-desktop{
+.next-arrow{
   @apply flex col-start-23 col-span-24 row-start-1 w-full;
 }
 
 .next-arrow-button{
   @apply rounded-full bg-white shadow-20 text-blue relative;
-}
-
-.back-arrow-mobile{
-  @apply lg:hidden flex col-start-1 col-span-2 row-start-1 w-full;
-}
-
-.next-arrow-mobile{
-  @apply lg:hidden flex col-start-23 col-span-24 row-start-1 w-full;
 }
 
 .suscribe-section{

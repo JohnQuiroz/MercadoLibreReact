@@ -30,7 +30,7 @@ const Header = () => {
                                     {openNavbar ? <MdMenuOpen /> : <MdMenu />}
                                 </button>
                             </div>
-                            <ShoppingCart screen='' />
+                            <ShoppingCart screen='-mobile' />
                         </div>
                         <Desktop />
                     </div>

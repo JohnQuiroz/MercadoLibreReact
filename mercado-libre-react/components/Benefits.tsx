@@ -57,4 +57,4 @@ const Benefits = () => {
   );
 };
 
-export {Benefits};
+export { Benefits };
