@@ -6,11 +6,11 @@ const Benefits = () => {
     <section className="w-[80%] pt-[82px]"> {/*benefits-section*/}
     <div className="text-text-benefits"> {/*benefits-title*/}
         <span>Beneficios de Mercado Puntos</span>
-        <a href="/">Ver todos los beneficios</a>
+        <Link href="/">Ver todos los beneficios</Link>
     </div> 
     <div>
         <div className="flex flex-row w-[100%] gap-x-[12px]"> {/*benefits-description*/}
-            <a href="/">
+            <Link href="/">
                 <div className="flex h-[250px] w-[100%]  bg-beneficios1 bg-no-repeat bg-bottom bg-cover rounded-md align-bottom items-end "> {/* benefits-description-disney*/}
                     <div  className="grid grid-cols-[25%_75%] p-[16px]">  {/*benefits-description-content*/}
                         <div className="w-[100%]">  {/*benefits-description-content-img*/}
@@ -22,8 +22,8 @@ const Benefits = () => {
                         </div>
                     </div>
                 </div>
-            </a>
-            <a href="/">
+            </Link>
+            <Link href="/">
                 <div className="flex h-[250px] w-[100%]  bg-beneficios2 bg-no-repeat bg-bottom bg-cover rounded-md align-bottom items-end "> {/*"benefits-description-hbo"*/}
                     <div className="grid grid-cols-[25%_75%] p-[16px]">  {/*benefits-description-content*/}
                         <div className="w-[100%]">  {/*benefits-description-content-img*/}
@@ -36,8 +36,8 @@ const Benefits = () => {
                         </div>
                     </div>
                 </div>
-            </a>
-            <a href="/">
+            </Link>
+            <Link href="/">
                 <div className="flex h-[250px] w-[100%]  bg-beneficios3 bg-no-repeat bg-bottom bg-cover rounded-md align-bottom items-end "> {/*"benefits-description-paramount"*/}
                     <div className="grid grid-cols-[25%_75%] p-[16px]">  {/*benefits-description-content*/}
                         <div className="w-[100%]">  {/*benefits-description-content-img*/}
@@ -50,7 +50,7 @@ const Benefits = () => {
                         </div>
                     </div>
                 </div>
-            </a>
+            </Link>
         </div>
     </div>
 </section>
