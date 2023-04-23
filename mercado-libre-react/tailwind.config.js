@@ -11,6 +11,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        'text-benefits':'#666666',
         'yellow': '#FFF159',
         'gray-dark': '#333333',
         'gray': '#4B4B4B',
@@ -31,6 +32,14 @@ module.exports = {
       boxShadow: {
         '20': '0 1px 2px 0 rgb(0, 0, 0, 20%)',
       },
+
+      backgroundImage: {
+        'beneficios1': "url('/media/beneficios 1.png')",
+        'beneficios2': "url('/media/beneficios 2.png')",
+        'beneficios3': "url('/media/beneficios 3.png')",
+
+      },
+
       fontSize: {
         '11px': '.688rem',
         '13px': '.813rem',
