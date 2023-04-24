@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 const Categories = () => {
@@ -10,7 +11,7 @@ const Categories = () => {
                 <div>
                     <div className="categories-content">
                         <div className="categories-content-column">
-                            <a href="#">
+                            <Link href="/">
                                 <div className="categories-content-cell">
                                     <svg width="49" height="49" viewBox="0 0 49 49" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <g clip-path="url(#clip0_1_436)">
@@ -30,8 +31,8 @@ const Categories = () => {
                                     </svg>
                                     <span>Carros, Motos y Otros</span>
                                 </div>
-                            </a>
-                            <a href="#">
+                            </Link>
+                            <Link href="/">
                                 <div className="categories-content-cell">
                                     <svg width="49" height="49" viewBox="0 0 49 49" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <g clip-path="url(#clip0_1_451)">
@@ -48,10 +49,10 @@ const Categories = () => {
                                     </svg>
                                     <span>Celulares y Teléfonos</span>
                                 </div>
-                            </a>
+                            </Link>
                         </div>
                         <div className="categories-content-column">
-                            <a href="#">
+                            <Link href="/">
                                 <div className="categories-content-cell">
                                     <svg width="49" height="49" viewBox="0 0 49 49" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <g clip-path="url(#clip0_1_464)">
@@ -68,8 +69,8 @@ const Categories = () => {
                                     </svg>
                                     <span>Computación</span>
                                 </div>
-                            </a>
-                            <a href="#">
+                            </Link>
+                            <Link href="/">
                                 <div className="categories-content-cell">
                                     <svg width="49" height="49" viewBox="0 0 49 49" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <g clip-path="url(#clip0_1_476)">
@@ -85,10 +86,10 @@ const Categories = () => {
                                     </svg>
                                     <span>Belleza y Cuidado Personal</span>
                                 </div>
-                            </a>
+                            </Link>
                         </div>
                         <div className="categories-content-column">
-                            <a href="#">
+                            <Link href="/">
                                 <div className="categories-content-cell">
                                     <svg width="49" height="49" viewBox="0 0 49 49" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <g clip-path="url(#clip0_1_488)">
@@ -102,8 +103,8 @@ const Categories = () => {
                                     </svg>
                                     <span>Ropa y Accesorios</span>
                                 </div>
-                            </a>
-                            <a href="#">
+                            </Link>
+                            <Link href="/">
                                 <div className="categories-content-cell">
                                     <svg width="49" height="49" viewBox="0 0 49 49" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <g clip-path="url(#clip0_1_497)">
@@ -123,10 +124,10 @@ const Categories = () => {
                                     </svg>
                                     <span>Deportes y Fitness</span>
                                 </div>
-                            </a>
+                            </Link>
                         </div>
                         <div className="categories-content-column">
-                            <a href="#">
+                            <Link href="/">
                                 <div className="categories-content-cell">
                                     <svg width="49" height="49" viewBox="0 0 49 49" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <g clip-path="url(#clip0_1_513)">
@@ -143,8 +144,8 @@ const Categories = () => {
                                     </svg>
                                     <span>Hogar y Muebles</span>
                                 </div>
-                            </a>
-                            <a href="#">
+                            </Link>
+                            <Link href="/">
                                 <div className="categories-content-cell">
                                     <svg width="49" height="49" viewBox="0 0 49 49" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <g clip-path="url(#clip0_1_525)">
@@ -165,10 +166,10 @@ const Categories = () => {
                                     </svg>
                                     <span>Electrónica, Audio y Video</span>
                                 </div>
-                            </a>
+                            </Link>
                         </div>
                         <div className="categories-content-column">
-                            <a href="#">
+                            <Link href="/">
                                 <div className="categories-content-cell">
                                     <svg width="49" height="49" viewBox="0 0 49 49" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <g clip-path="url(#clip0_1_542)">
@@ -187,8 +188,8 @@ const Categories = () => {
                                     </svg>
                                     <span>Accesorios para Vehículos</span>
                                 </div>
-                            </a>
-                            <a href="#">
+                            </Link>
+                            <Link href="/">
                                 <div className="categories-content-cell">
                                     <svg width="49" height="49" viewBox="0 0 49 49" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <g clip-path="url(#clip0_1_556)">
@@ -207,10 +208,10 @@ const Categories = () => {
                                     </svg>
                                     <span>Consolas y Videojuegos</span>
                                 </div>
-                            </a>
+                            </Link>
                         </div>
                         <div className="categories-content-column">
-                            <a href="#">
+                            <Link href="/">
                                 <div className="categories-content-cell">
                                     <svg width="49" height="49" viewBox="0 0 49 49" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <g clip-path="url(#clip0_1_571)">
@@ -229,8 +230,8 @@ const Categories = () => {
                                     </svg>
                                     <span>Electrodomésticos</span>
                                 </div>
-                            </a>
-                            <a href="#">
+                            </Link>
+                            <Link href="/">
                                 <div className="categories-content-cell">
                                     <svg width="49" height="49" viewBox="0 0 49 49" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <g clip-path="url(#clip0_1_585)">
@@ -252,10 +253,10 @@ const Categories = () => {
                                     </svg>
                                     <span>Juegos y Juguetes</span>
                                 </div>
-                            </a>
+                            </Link>
                         </div>
                         <div className="categories-content-column">
-                            <a href="#">
+                            <Link href="/">
                                 <div className="categories-content-cell">
                                     <svg width="49" height="49" viewBox="0 0 49 49" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <g clip-path="url(#clip0_1_603)">
@@ -273,8 +274,8 @@ const Categories = () => {
                                     </svg>
                                     <span>Cámaras y Accesorios</span>
                                 </div>
-                            </a>
-                            <a href="#">
+                            </Link>
+                            <Link href="/">
                                 <div className="categories-content-cell">
                                     <svg width="49" height="49" viewBox="0 0 49 49" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <g clip-path="url(#clip0_1_616)">
@@ -288,7 +289,7 @@ const Categories = () => {
                                     </svg>
                                     <span>Herramientas</span>
                                 </div>
-                            </a>
+                            </Link>
                         </div>
                     </div>
                 </div>
