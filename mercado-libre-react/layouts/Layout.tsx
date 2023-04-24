@@ -3,7 +3,6 @@ import {Banner} from '@components/Banner';
 import { Discover } from '@components/Discover';
 import { Benefits } from '@components/Benefits';
 import {Offers} from '@components/Offers';
-import { Stores } from '@components/Stores';
 import { Header } from 'components/Header';
 import React from 'react';
 import { Suscribirse } from '@components/Suscribirse';
@@ -11,6 +10,7 @@ import Collections from '@components/Collections';
 import Categories from '@components/Categories';
 import Information from '@components/Information';
 import Footer from '@components/Footer';
+import { Stores } from '@components/Stores';
 
 const Layout = () => {
     return (
@@ -25,7 +25,7 @@ const Layout = () => {
                         <Suscribirse />
                         <Benefits />
                         <Discover />
-                        <Stores/>
+                        <Stores />
                     </div>
                     <div className="second-container">
                         <Collections />

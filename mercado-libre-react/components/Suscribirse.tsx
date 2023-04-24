@@ -2,25 +2,25 @@ import React from 'react'
 
 const Suscribirse = () => {
     return (
-        <section className="suscribe-section">
+        <section className="w-[80%] pt-[56px]">  {/* suscribe-section */}
             <div className="suscribe">
-                <div className="suscribe-title">
+                <div className="flex h-[100%] flex-wrap content-center"> {/* uscribe-title*/}
                     <span>Suscríbete al nivel 6</span>
                 </div>
-                <div className="suscribe-price">
-                    <div className="suscribe-price-pseudo"></div>
-                    <div className="suscribe-price-description">
-                        <span className="suscribe-price-before">$ 50.690</span>
+                <div className="flex h-[100%] flex-wrap content-center">  {/* suscribe-price*/}
+                    <div className="border-[#FFFFFF] border-l-2 border-solid"></div> {/* suscribe-price-pseudo*/}
+                    <div className=" flex flex-col justify-center mx-[12px]"> {/* suscribe-price-description*/}
+                        <span className="text-[14px] line-through">$ 50.690</span> {/* suscribe-price-before*/}
                         <div>
-                            <span className="suscribe-price-now">$ 17.890 </span><span className="suscribe-price-month">/mes</span>
+                            <span className="text-[17px]">$ 17.890 </span><span className="text-[13px]">/mes</span> {/* "suscribe-price-now*/}{/* suscribe-price-month*/}
                         </div>
                     </div>
                 </div>
             </div>
-            <div className="suscribe-benefits">
-                <span className="suscribe-benefits-title">Consigue los mejores beneficios en Mercado Libre</span>
-                <div className="suscribe-benefits-container">
-                    <div className="suscribe-benefits-content">
+            <div className="flex flex-col w-[100%] h-[100%] text-[17px] bg-white color-black gap-x-[29px]"> {/* suscribe-price-before*/}
+                <span className="mt-[19px] ml-[24px]">Consigue los mejores beneficios en Mercado Libre</span> {/* suscribe-benefits-title*/}
+                <div className="grid grid-cols-[33%_33%_33%] border-b-2 border-solid border-[#EFEFEF] w-[100%] px-[24px] pr-[24px] py-[24px]"> {/* suscribe-benefits-container*/}
+                    <div className="flex flex-row items-center text-[15px] color-black"> {/* suscribe-benefits-content*/}
                         <div>
                             <svg width="74" height="75" viewBox="0 0 74 75" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <g clip-path="url(#clip0_1_212)">
@@ -54,7 +54,7 @@ const Suscribirse = () => {
                         </div>
                         <span>Disney+ sin cargo</span>
                     </div>
-                    <div className="suscribe-benefits-content">
+                    <div className="flex flex-row items-center text-[15px] color-black"> {/*suscribe-benefits-content*/}
                         <div>
                             <svg width="75" height="75" viewBox="0 0 75 75" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <g clip-path="url(#clip0_1_225)">
@@ -83,7 +83,7 @@ const Suscribirse = () => {
                         </div>
                         <span>Star+ sin cargo</span>
                     </div>
-                    <div className="suscribe-benefits-content">
+                    <div className="flex flex-row items-center text-[15px] color-black"> {/*suscribe-benefits-content*/}
                         <div>
                             <svg width="75" height="75" viewBox="0 0 75 75" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
                                 <rect x="1.65625" y="1.6875" width="72" height="72" fill="url(#pattern0)" />
@@ -100,8 +100,8 @@ const Suscribirse = () => {
                     </div>
                 </div>
             </div>
-            <div className="suscribe-button-container">
-                <button className="suscribe-button">Suscríbete</button>
+            <div className="flex justify-end bg-[#ffffff] py-[17px] pr-[30px]"> {/*suscribe-button-container*/}
+                <button className="text-[15px] text-[#ffffff] bg-[#3483FA]  border-none rounded-[5px] h-[48px] w-[123px]">Suscríbete</button>  {/*suscribe-button*/}
             </div>
         </section>
     );
