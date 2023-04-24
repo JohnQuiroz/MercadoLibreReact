@@ -21,29 +21,41 @@ const Collections = () => {
                 </button>
             </div>
             <div className="collections-content">
-                <div>
-                    <Link href="/">
-                        <div className="collections-content-main">
-                            <div>
-                                <img src="media/colecciones 1.png" alt="Colección 1" />
-                            </div>
-                            <div className="collections-content-main-description">
-                                <span className="collections-content-main-text1">DESCUBRE</span>
-                                <span className="collections-content-main-text2">SUPERMERCADO</span>
-                            </div>
+                <Link href="/" className='collections-content-first'>
+                    <div className="collections-content-main">
+                        <div>
+                            <img src="media/colecciones 1.png" alt="Colección 1" />
                         </div>
-                    </Link>
-                </div>
-                <div className="collections-content-grid">
-                    <Link href="/"><img src="media/colecciones 2.png" alt="Colección 2" /></Link>
-                    <Link href="/"><img src="media/colecciones 3.png" alt="Colección 3" /></Link>
-                    <Link href="/"><img src="media/colecciones 4.png" alt="Colección 4" /></Link>
-                    <Link href="/"><img src="media/colecciones 5.png" alt="Colección 5" /></Link>
-                    <Link href="/"><img src="media/colecciones 6.png" alt="Colección 6" /></Link>
-                    <Link href="/"><img src="media/colecciones 7.png" alt="Colección 7" /></Link>
-                    <Link href="/"><img src="media/colecciones 8.png" alt="Colección 8" /></Link>
-                    <Link href="/"><img src="media/colecciones 9.png" alt="Colección 9" /></Link>
-                </div>
+                        <div className="collections-content-main-description">
+                            <span className="collections-content-main-text1">DESCUBRE</span>
+                            <span className="collections-content-main-text2">SUPERMERCADO</span>
+                        </div>
+                    </div>
+                </Link>
+                <Link href="/" className='col-start-3 row-start-1'>
+                    <img src="media/colecciones 2.png" alt="Colección 2" className='collections-content-img' />
+                </Link>
+                <Link href="/" className='col-start-4 row-start-1'>
+                    <img src="media/colecciones 3.png" alt="Colección 3" className='collections-content-img' />
+                </Link>
+                <Link href="/" className='col-start-5 row-start-1'>
+                    <img src="media/colecciones 4.png" alt="Colección 4" className='collections-content-img' />
+                </Link>
+                <Link href="/" className='col-start-6 row-start-1'>
+                    <img src="media/colecciones 5.png" alt="Colección 5" className='collections-content-img' />
+                </Link>
+                <Link href="/" className='col-start-3 row-start-2'>
+                    <img src="media/colecciones 6.png" alt="Colección 6" className='collections-content-img' />
+                </Link>
+                <Link href="/" className='col-start-4 row-start-2'>
+                    <img src="media/colecciones 7.png" alt="Colección 7" className='collections-content-img' />
+                </Link>
+                <Link href="/" className='col-start-5 row-start-2'>
+                    <img src="media/colecciones 8.png" alt="Colección 8" className='collections-content-img' />
+                </Link>
+                <Link href="/" className='col-start-6 row-start-2'>
+                    <img src="media/colecciones 9.png" alt="Colección 9" className='collections-content-img' />
+                </Link>
             </div>
         </section>
     )
