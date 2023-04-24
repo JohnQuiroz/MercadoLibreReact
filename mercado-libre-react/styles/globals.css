@@ -627,42 +627,19 @@ body{
 }
 
 .categories-section{
-  width: 80%;
-  margin-top: 85px;
-  margin-bottom: 18px;
+  @apply w-4/5 mt-20 mb-4;
 }
 
 .categories-title{
-  font-size: 25px;
-  color: #666666;
-  font-weight: lighter;
+  @apply text-25px text-gray-light font-extralight;
 }
 
 .categories-content{
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  background-color: #FFFFFF;
-  margin-top: 29px;
-}
-
-.categories-content-column{
-  display: flex;
-  flex-direction: column;
-  width: 100%;
+  @apply grid grid-cols-3 sm:grid-cols-4 lg:grid-cols-7 w-full mt-7 bg-white;
 }
 
 .categories-content-cell{
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  padding: 6px;
-  border: 1px solid #E5E5E5;
-  height: 170px;
-  font-size: 14px;
+  @apply flex flex-col justify-center items-center text-center p-2 border border-[#E5E5E5] border-solid h-44;
 }
 
 .information-section{
