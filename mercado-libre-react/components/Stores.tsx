@@ -23,7 +23,7 @@ const Stores = () => {
                                 <Link href="/"><img src="media/mejores 1 - 2.png" /></Link>
                                 <Link href="/"><img src="media/mejores 1 - 3.png" /></Link>
                             </div>
-                            <span className="stores-description-more">Ver tienda</span>
+                            <Link href="/" className="stores-description-more">Ver tienda</Link>
                         </div>
                         <div className="stores-description-2">
                             <div className="stores-description-logo">
@@ -37,7 +37,7 @@ const Stores = () => {
                                 <Link href="/"><img src="media/mejores 2 - 2.png" /></Link>
                                 <Link href="/"><img src="media/mejores 2 - 3.png" /></Link>
                             </div>
-                            <span className="stores-description-more">Ver tienda</span>
+                            <Link href="/" className="stores-description-more">Ver tienda</Link>
                         </div>
                         <div className="stores-description-3">
                             <div className="stores-description-logo">
@@ -51,7 +51,7 @@ const Stores = () => {
                                 <Link href="/"><img src="media/mejores 3 - 2.png" /></Link>
                                 <Link href="/"><img src="media/mejores 3 - 3.png" /></Link>
                             </div>
-                            <span className="stores-description-more">Ver tienda</span>
+                            <Link href="/" className="stores-description-more">Ver tienda</Link>
                         </div>
                         <div className="stores-description-4">
                             <div className="stores-description-logo">
@@ -65,7 +65,7 @@ const Stores = () => {
                                 <Link href="/"><img src="media/mejores 4 - 2.png" /></Link>
                                 <Link href="/"><img src="media/mejores 4 - 3.png" /></Link>
                             </div>
-                            <span className="stores-description-more">Ver tienda</span>
+                            <Link href="/" className="stores-description-more">Ver tienda</Link>
                         </div>
                     </div>
                 </div>

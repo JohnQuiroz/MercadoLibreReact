@@ -539,7 +539,7 @@ body{
 }
 
 .stores-container{
-  @apply flex flex-row gap-4 w-full;
+  @apply flex flex-row justify-between w-full;
 }
 
 .stores-description-1{
@@ -579,82 +579,51 @@ body{
 }
 
 .second-container{
-  padding-top: 40px;
-  background-color: #EBEBEB;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  @apply flex flex-col items-center justify-center pt-10 bg-white-darker;
 }
 
 .collections-section{
-  width: 80%;
+  @apply w-4/5;
 }
 
 .collections-title{
-  font-size: 26px;
-  color: #666666;
-  font-weight: lighter;
+  @apply text-26px text-gray-light font-extralight flex gap-2;
 }
 
 .collections-title button{
-  font-weight: bold;
-  font-size: 26px;
-  color: #666666;
-  background-color: rgba(0,0,0,0);
-  border: none;
+  @apply text-26px text-gray-light font-bold border-none flex gap-2 items-center;
 }
 
 .collections-content{
-  display: grid;
-  grid-template-columns: 35% 60%;
-  column-gap: 18px;
-  margin-top: 28px;
+  @apply grid grid-cols-6 grid-rows-2 gap-4 mt-7 w-full lg:h-[384px];
+}
+
+.collections-content-first{
+  @apply col-start-1 row-start-1 col-span-2 row-span-2;
 }
 
 .collections-content-main{
-  display: flex;
-  flex-direction: column;
-  background-color: #FFFFFF;
-  border-radius: 4px;
+  @apply flex flex-col bg-white rounded-md lg:h-full gap-6;
 }
 
 .collections-content-main img{
-  width: 100%;
-  border-radius: 4px 4px 0 0;
+  @apply w-full rounded-t-md;
 }
 
 .collections-content-main-description{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  width: 100%;
-  padding: 12px;
+  @apply flex flex-col justify-between w-full p-3;
 }
 
 .collections-content-main-text1{
-  font-size: 12px;
-  color: #4B4B4B;
-  font-weight: bold;
+  @apply text-xs text-gray font-bold;
 }
 
 .collections-content-main-text2{
-  font-size: 28px;
-  color: #4B4B4B;
-  font-weight: bolder;
+  @apply text-lg lg:text-28px text-gray font-extrabold;
 }
 
-.collections-content-grid{
-  display: grid;
-  grid-template-columns: 25% 25% 25% 25%;
-  grid-template-rows: 50% 50%;
-  column-gap: 16px;
-  row-gap: 16px;
-}
-
-.collections-content-grid img{
-  width: 100%;
-  border-radius: 4px;
+.collections-content-img{
+  @apply h-full w-full;
 }
 
 .categories-section{
