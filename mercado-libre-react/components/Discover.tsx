@@ -14,7 +14,7 @@ const Discover = () => {
                             <span className="text-xs-[12px] mb-[18px] d">RENUEVA TUS ESPACIOS</span> {/*discover-description-content-text-1*/}
                             <span className="text-xs-[12px] text-[#4B4B4B] font-bold ">HOGAR Y MUEBLES</span>
                             <span className="text-xs-[12px] text-[#4B4B4B] font-bold ">HASTA 50% OFF</span>
-                            <div className="w-[96px] h-[36px] text-xs-[14px] text-white bg-[#3483FA] rounded-none rounded-sm mt-[28px] flex flex-column justify-center text-bold">{/*discover-description-content-img*/}
+                            <div className="w-[96px] h-[36px] text-xs-[14px] text-white bg-[#3483FA] rounded-sm mt-[28px] flex flex-column justify-center text-bold">{/*discover-description-content-img*/}
                                 <button>Ver más</button>
                             </div>
                         </div>
@@ -29,7 +29,7 @@ const Discover = () => {
                             <span className="text-xs-[12px] mb-[18px] !importan ">SUSCRÍBETE AL NIVEL 6</span>{/*discover-description-content-text-1*/}
                             <span className="text-xs-[12px] text-[#4B4B4B] font-bold">POR SOLO</span> {/*discover-description-content-text span*/}
                             <span className="text-xs-[12px] text-[#4B4B4B] font-bold">$17899 CADA MES</span> {/*discover-description-content-text span{*/}
-                            <div className="w-[96px] h-[36px] text-xs-[14px] text-white bg-[#3483FA] rounded-none rounded-sm mt-[28px] flex flex-column justify-center text-bold">  {/*discover-description-content-text button*/}
+                            <div className="w-[96px] h-[36px] text-xs-[14px] text-white bg-[#3483FA] rounded-sm mt-[28px] flex flex-column justify-center text-bold">  {/*discover-description-content-text button*/}
                                 <button>Suscribirme</button>
                             </div>
                         </div>
