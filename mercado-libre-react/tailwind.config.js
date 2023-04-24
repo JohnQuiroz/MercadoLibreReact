@@ -41,6 +41,7 @@ module.exports = {
         '26px': '1.625rem',
         '28px': '1.75rem',
       },
+     
       gridTemplateColumns: {
         '24': 'repeat(24, minmax(0, 1fr))',
       },
