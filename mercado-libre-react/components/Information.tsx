@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 const Information = () => {
@@ -34,7 +35,7 @@ const Information = () => {
                     </svg>
                     <span className="information-description-title">Paga con tarjeta o en efectivo</span>
                     <span className="information-description-text">Con Mercado Pago, paga en cuotas y aprovecha la comodidad de financiación que te da tu banco, o hazlo con efectivo en puntos de pago. ¡Y siempre es seguro!</span>
-                    <span className="information-description-link">Cómo pagar con Mercado Pago</span>
+                    <Link href="/" className="information-description-link">Cómo pagar con Mercado Pago</Link>
                 </div>
                 <div className="information-description">
                     <svg width="56" height="49" viewBox="0 0 56 49" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -57,7 +58,7 @@ const Information = () => {
                     </svg>
                     <span className="information-description-title">Envío gratis desde $ 90.000</span>
                     <span className="information-description-text">Con solo estar registrado en Mercado Libre, tienes envíos gratis en miles de productos seleccionados.</span>
-                    <span className="information-description-link">Conoce más sobre este beneficio</span>
+                    <Link href="/"  className="information-description-link">Conoce más sobre este beneficio</Link>
                 </div>
                 <div className="information-description">
                     <svg width="52" height="55" viewBox="0 0 52 55" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -73,7 +74,7 @@ const Information = () => {
                     </svg>
                     <span className="information-description-title">Seguridad, de principio a fin</span>
                     <span className="information-description-text">¿No te gusta? ¡Devuélvelo! En Mercado Libre, no hay nada que no puedas hacer, porque estás siempre protegido.</span>
-                    <span className="information-description-link">Cómo te protegemos</span>
+                    <Link href="/"  className="information-description-link">Cómo te protegemos</Link>
                 </div>
             </div>
         </section>
