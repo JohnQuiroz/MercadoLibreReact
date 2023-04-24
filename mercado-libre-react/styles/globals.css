@@ -535,7 +535,6 @@ body{
 
 .stores-title a{
   @apply text-blue text-15px ml-4;
-  text-decoration: none;
 }
 
 .stores-container{
@@ -667,64 +666,41 @@ body{
 }
 
 footer{
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  background-color: #FFFFFF;
-  padding: 24px;
-  border-top: 1px solid #E5E5E5;
+  @apply flex flex-col w-full bg-white p-6 border-t border-[#E5E5E5] border-solid;
 }
 
 .copyright{
-  display: flex;
-  flex-direction: column;
-  width: 80%;
-  padding: 12px;
-  margin-left: auto;
-  margin-right: auto;
+  @apply flex flex-col w-4/5 p-3 mx-auto;
 }
 
 .interest-links{
-  list-style-type: none;
-  margin: 6px;
+  @apply list-none m-1;
 }
 
 .interest-links li{
-  display: inline;
+  @apply inline;
 }
 
 .interest-links a{
-  text-decoration: none;
-  font-size: 12px;
-  color: #333333;
+  @apply text-xs text-gray-dark;
 }
 
 .copyright-links span{
-  font-size: 11px;
-  color: #999999;
-  margin: 6px;
+  @apply text-11px text-gray-lighter m-1;
 }
 
 .copyright-address{
-  font-size: 11px;
-  color: #999999;
-  margin: 6px;
+  @apply text-11px text-gray-lighter m-1;
 }
 
 .endorse{
-  display: flex;
-  flex-direction: row;
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
-  column-gap: 12px;
-  border-top: 1px solid #E5E5E5;
+  @apply flex flex-row w-4/5 mx-auto gap-x-3 border-t border-[#E5E5E5] border-solid;
 }
 
 .endorse div{
-  width: 12%;
+  @apply w-1/12 m-3;
 }
 
 .endorse img{
-  width: 100%;
+  @apply w-full;
 }
