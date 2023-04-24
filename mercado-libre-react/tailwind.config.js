@@ -1,14 +1,17 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    './pages/**/*.{js,ts,jsx,tsx}',
-    './components/**/*.{js,ts,jsx,tsx}',
-    './app/**/*.{js,ts,jsx,tsx}',
-    './layouts/**/*.{js,ts,jsx,tsx}'
+    "./app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./pages/**/*.{js,ts,jsx,tsx,mdx}",
+    "./components/**/*.{js,ts,jsx,tsx,mdx}",
+ 
+    // Or if using `src` directory:
+    "./src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
     extend: {
       colors: {
+        'text-benefits':'#666666',
         'yellow': '#FFF159',
         'gray-dark': '#333333',
         'gray': '#4B4B4B',
@@ -27,7 +30,20 @@ module.exports = {
         'black': '#000000',
       },
       boxShadow: {
+        '15': '0px 2px 15px 0px rgba(0, 0, 0, 0.184)',
         '20': '0 1px 2px 0 rgb(0, 0, 0, 20%)',
+      },
+      backgroundImage: {
+        'beneficios1': "url('/media/beneficios 1.png')",
+        'beneficios2': "url('/media/beneficios 2.png')",
+        'beneficios3': "url('/media/beneficios 3.png')",
+        'mejores1': "url('/media/mejores 1.png')",
+        'mejores2': "url('/media/mejores 2.png')",
+        'mejores3': "url('/media/mejores 3.png')",
+        'mejores4': "url('/media/mejores 4.png')",
+      },
+      backgroundSize: {
+        '100': '100%',
       },
       fontSize: {
         '11px': '.688rem',
