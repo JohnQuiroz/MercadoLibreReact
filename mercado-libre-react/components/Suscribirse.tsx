@@ -5,7 +5,7 @@ const Suscribirse = () => {
         <section className="w-[80%] pt-[56px]">  {/* suscribe-section */}
             <div className="suscribe">
                 <div className="flex h-[100%] flex-wrap content-center"> {/* uscribe-title*/}
-                    <span>Suscríbete al nivel 6</span>
+                    <span>Suscríbete al nivel 8</span>
                 </div>
                 <div className="flex h-[100%] flex-wrap content-center">  {/* suscribe-price*/}
                     <div className="border-[#FFFFFF] border-l-2 border-solid"></div> {/* suscribe-price-pseudo*/}
@@ -52,7 +52,7 @@ const Suscribirse = () => {
                                 </defs>
                             </svg>
                         </div>
-                        <span>Disney+ sin cargo</span>
+                        <span>Disney si quieres pagar el cargo</span>
                     </div>
                     <div className="flex flex-row items-center text-[15px] color-black"> {/*suscribe-benefits-content*/}
                         <div>
@@ -81,7 +81,7 @@ const Suscribirse = () => {
                                 </defs>
                             </svg>
                         </div>
-                        <span>Star+ sin cargo</span>
+                        <span>Star+ la puta madre</span>
                     </div>
                     <div className="flex flex-row items-center text-[15px] color-black"> {/*suscribe-benefits-content*/}
                         <div>
@@ -96,7 +96,7 @@ const Suscribirse = () => {
                                 </defs>
                             </svg>
                         </div>
-                        <span>Envíos gratis y rápidos desde $ 90.000 y 40% OFF en envíos de menos de $ 90.000</span>
+                        <span>Envíos gratis y rápidos desde $ 90.000 y 40% OFF en envíos de menos de $ 90.000, o ´paga lo premium </span>
                     </div>
                 </div>
             </div>
